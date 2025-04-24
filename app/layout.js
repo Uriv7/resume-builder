@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import ThemeScript from "./components/ThemeScript";
+import Chatbot from "./components/Chatbot";
 
 export const metadata = {
   title: "ResumePilot - Professional Resume Builder",
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
         <Header />
         <main className="flex-grow">{children}</main>
         <Footer />
+        <Chatbot />
       </body>
     </html>
   );
